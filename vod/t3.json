@@ -1,34 +1,34 @@
 {
-    "logo": "./logo.gif",
+    //"logo": "./logo.gif",
     "sites": [
         {
-            "key": "py_jieyingshi",
-            "name": "金牌影院(T3)",
+            "key": "py_jianpian",
+            "name": "荐片",
             "type": 3,
-            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/doube-ba/Sub/refs/heads/main/vod/spider/doubebly_jinpai.py",
-            "searchable": 1,
-            "filterable": 0,
-            "changeable": 0
+            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/doube-ba/Sub/refs/heads/main/vod/spider/doubebly_jianpian.py"
         },
         {
-            "key": "py_jianpian",
-            "name": "荐片(T3)",
+            "key": "py_jieyingshi",
+            "name": "金牌",
             "type": 3,
-            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/doube-ba/Sub/refs/heads/main/vod/spider/doubebly_jianpian.py",
-            "searchable": 1,
-            "filterable": 0,
-            "changeable": 0
+            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/doube-ba/Sub/refs/heads/main/vod/spider/doubebly_jinpai.py"
         },
         {
             "key": "py_aigua",
-            "name": "爱瓜TV(T3)",
+            "name": "爱瓜",
             "type": 3,
-            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/doube-ba/Sub/refs/heads/main/vod/spider/doubebly_aigua.py",
-            "searchable": 1,
-            "filterable": 0,
-            "changeable": 0
+            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/doube-ba/Sub/refs/heads/main/vod/spider/doubebly_aigua.py"
         }
     ]
+},
+  "lives": [
+    {
+      "name": "SMT直播",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/doube-ba/Sub/refs/heads/main/live/live_litv.py",
+      "ext": {}
+      }
+  ]
 }
 
 
